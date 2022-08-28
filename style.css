@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  left: 15px;
+  margin: 2rem;
+  width: 250px;
+}
+
+#navbar header {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-bottom: 1px solid gray;
+}
+#navbar ul li a {
+  text-decoration: none;
+}
